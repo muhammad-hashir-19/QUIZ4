@@ -48,5 +48,5 @@ If the phone and PC are on different networks, use `npx expo start --tunnel`.
 - reCAPTCHA cancelled or failed → message, no SMS sent
 - Too many attempts or daily SMS quota reached → rate-limit message
 
-## Screenshots / recording
-_Add screenshots of each step and a link to the screen recording here._
+## Screen recording
+[▶ Watch the recording (recording/quiz4-demo.mp4)](recording/quiz4-demo.mp4)
