@@ -37,6 +37,8 @@ function describeError(err: unknown): string {
     case 'auth/captcha-check-failed':
     case 'auth/invalid-app-credential':
       return 'reCAPTCHA check failed. Try again.';
+    case 'auth/operation-not-allowed':
+      return "SMS to this country isn't enabled. Allow it in Firebase: Authentication → Settings → SMS region policy.";
     case 'cancelled':
       return 'Verification cancelled.';
     case 'auth/network-request-failed':
